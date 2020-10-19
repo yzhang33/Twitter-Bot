@@ -29,7 +29,7 @@ try{
 //console.log(dict);
 
 pushTweet();
-setInterval(pushTweet,60*60*10000);
+setInterval(pushTweet,60*10000);
 
 async function pushTweet(){
     //console.log(twitter.config);
